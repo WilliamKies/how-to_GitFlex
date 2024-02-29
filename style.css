@@ -1,10 +1,10 @@
-.first-content, .second-content, .third-content {
+.first-content, .second-content, .third-content, .four-content {
     border: 1px solid grey;
     padding: 10px;
     width: 30%;
 }
 
-.first-content h1, .second-content h2, .third-content h3 {
+.first-content h1, .second-content h2, .third-content h3, .four-content h2 {
     text-align: center;
 }
 
@@ -14,12 +14,18 @@
     justify-content: space-between;
 }
 
+.four-content {
+    text-align: right;
+    color: white;
+    background-color: red;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .container {
         flex-direction: column;
     }
 
-    .first-content, .second-content, .third-content {
+    .first-content, .second-content, .third-content, .four-content {
         width: 80%;
         margin-top: 4%;
     }
